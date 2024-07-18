@@ -1,0 +1,28 @@
+.gallery-class {
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  .gallery-class img {
+    max-width: 100%;
+    cursor: pointer;
+  }
+  .gallery-class .thumbnails {
+    overflow: hidden;
+  }
+  .gallery-class .thumbnails img {
+    float: left;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 0.4;
+  }
+  .gallery-class .thumbnails img.active {
+    border: 3px solid red;
+    opacity: 1;
+  }
+  .gallery-class .thumbnails img:last-child {
+    margin-right: 0 !important;
+  }

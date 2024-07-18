@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #6c757d;
+}
+
+.r-p {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.bg-sec {
+  background-color: #f8f9fa;
+}
+
+nav.r-nav {
+  background-color: transparent;
+  padding: 20px 0;
+  transition: 0.5s all;
+}
+
+nav.r-nav.stickyadd {
+  background: #000;
+  padding: 15px 0;
+  box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.05);
+  transition: 0.5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+  color: #3498db;
+  font-size: 40px;
+  transition: 0.5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+  color: #3498db;
+}
+
+nav.stickyadd .hhh {
+  color: #3498db;
+}
+
+nav .navbar-brand {
+  font-size: 30px;
+  color: #2ecc71;
+}
+
+nav .navbar-brand:hover {
+  color: #e74c3c;
+}
+
+nav .navbar-nav li a {
+  color: #2ecc71;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+nav .navbar-nav li a:hover {
+  color: #e74c3c;
+}
+
+nav .navbar-nav li {
+  margin-left: 15px;
+}
+
+nav .navbar-toggler {
+  color: #2ecc71;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./imgs/bg02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box {
+  max-width: 700px;
+  color: #2ecc71;
+}
+
+.content-box h4 {
+  font-size: 30px;
+}
+
+.content-box h1 {
+  font-size: 52px;
+}
+
+.content-box a {
+  color: #2ecc71;
+  text-decoration: none;
+  border: 2px solid #2ecc71;
+  border-radius: 20px;
+  padding: 5px 25px;
+}
+
+.content-box a:hover {
+  color: #e74c3c;
+  background-color: #2ecc71;
+  transition: 0.5s all;
+}
+
+.content-box p {
+  color: #2ecc71;
+}
+
+.about img {
+  width: 65%;
+}
+
+.about li a {
+  color: #2ecc71;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  font-size: 20px;
+  border: 2px solid #3498db;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: 0.5s all;
+  text-align: center;
+}
+
+.about li a:hover {
+  color: #e74c3c;
+}
+
+.exp-class .progress {
+  height: 10px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.exp-class label {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card, .card-header {
+  background-color: #f8f9fa !important;
+}
+
+.card-header {
+  border: none !important;
+}
+
+.services-class, .card-header i {
+  font-size: 50px;
+}
+
+.service-border {
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  background-color: #e65f78;
+}
+
+.gallery-class {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.gallery-class img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.gallery-class .thumbnails {
+  overflow: hidden;
+}
+
+.gallery-class .thumbnails img {
+  float: left;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  opacity: 0.4;
+}
+
+.gallery-class .thumbnails img.active {
+  border: 3px solid red;
+  opacity: 1;
+}
+
+.gallery-class .thumbnails img:last-child {
+  margin-right: 0 !important;
+}
+
+.content-class .r-icon {
+  font-size: 50px;
+  text-align: center;
+}
+
+button {
+  float: right;
+  border-radius: 5px;
+}
+
+input, textarea {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=stylesheet.css.map */

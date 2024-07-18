@@ -1,0 +1,40 @@
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./imgs/bg02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-box{
+    max-width: 700px;
+    color: #2ecc71;
+}
+.content-box h4{
+    font-size: 30px;
+}
+.content-box h1{
+    font-size: 52px;
+}
+.content-box a{
+    color: #2ecc71;
+    text-decoration: none;
+    border: 2px solid #2ecc71;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+.content-box a:hover{
+    color: #e74c3c;
+    background-color: #2ecc71;
+    transition: 0.5s all;
+}
+.content-box p{
+    color: #2ecc71;
+}

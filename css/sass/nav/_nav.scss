@@ -1,0 +1,33 @@
+nav.r-nav{
+    background-color: transparent;
+    padding: 20px 0;
+    transition: .5s all;
+}
+nav.r-nav.stickyadd{
+    background: #000;
+    padding: 15px 0;
+    box-shadow: 0px 1px 8px 3px rgba($color:#0000 , $alpha: 0.05);
+    transition: .5s all ease-in-out;
+}
+nav.stickyadd .navbar-brand{
+    color: #3498db;
+    font-size: 40px;
+    transition: .5s all ;
+}
+nav.stickyadd .navbar-nav .nav-link{color: #3498db;}
+nav.stickyadd .hhh{color: #3498db;}
+nav .navbar-brand{
+    font-size: 30px;
+    color: #2ecc71;
+}
+nav .navbar-brand:hover{color:#e74c3c;}
+nav .navbar-nav li a{
+    color: #2ecc71;
+    font-size: 16px;;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+nav .navbar-nav li a:hover{color:#e74c3c;}
+nav .navbar-nav li{margin-left: 15px;}
+nav .navbar-toggler{color: #2ecc71;}
+

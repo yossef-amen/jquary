@@ -1,0 +1,19 @@
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card,.card-header{
+    background-color: #f8f9fa !important;
+}
+.card-header{
+    border: none !important;
+}
+.services-class, .card-header i{
+    font-size: 50px;
+}
+.service-border{
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    background-color: #e65f78;
+}
